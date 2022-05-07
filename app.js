@@ -20,6 +20,8 @@ connectDB();
 app.use('/', require('./routes/index'));
 app.use('/api/employees', require('./routes/index'));
 app.use('/api/students', require('./routes/index'));
+app.use('/api/employee/add', require('./routes/index'));
+
 app.listen(3000);
 
 
